@@ -15,6 +15,7 @@ public class FileProcessUtil {
         InputStreamReader reader = null;
         BufferedReader bufferedReader = null;
 
+
         while (true){
             try {
                 reader = new InputStreamReader(new FileInputStream(file));
